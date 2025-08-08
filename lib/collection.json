@@ -1,0 +1,11 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "extends": ["@nestjs/schematics"],
+  "schematics": {
+    "mma-module": {
+      "description": "Generates a Modular Monolith Architecture (MMA) module.",
+      "factory": "./mma-module/index#mmaModule",
+      "schema": "./mma-module/schema.json"
+    }
+  }
+}

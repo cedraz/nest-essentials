@@ -1,0 +1,27 @@
+{
+  "name": "@cedraz/nest-essentials",
+  "version": "1.0.14",
+  "description": "A collection of useful schematics for NestJS.",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && npm run copy-files",
+    "copy-files": "cpr src/collection.json lib/collection.json -o && cpr src/mma-module/schema.json lib/mma-module/schema.json -o && cpr src/mma-module/files lib/mma-module/files -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "schematics": "./lib/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^17.0.0",
+    "@angular-devkit/schematics": "^17.0.0",
+    "@nestjs/schematics": "^11.0.7",
+    "ts-morph": "^26.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "cpr": "^3.0.1",
+    "typescript": "^5.0.0"
+  }
+}
