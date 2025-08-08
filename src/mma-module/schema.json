@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/schema",
-  "$id": "MmaModuleSchema",
-  "title": "MMA Module Options",
+  "$id": "FeatureModuleSchema",
+  "title": "Feature Module Options",
   "type": "object",
   "properties": {
     "name": {
@@ -11,11 +11,6 @@
         "$source": "argv",
         "index": 0
       }
-    },
-    "skipImport": {
-      "type": "boolean",
-      "description": "Flag to skip importing the module into the root module.",
-      "default": false
     }
   },
   "required": ["name"]

@@ -1,6 +1,6 @@
 {
   "name": "@cedraz/nest-essentials",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "A collection of useful schematics for NestJS.",
   "scripts": {
     "build": "tsc -p tsconfig.json && npm run copy-files",
