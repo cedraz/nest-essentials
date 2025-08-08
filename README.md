@@ -60,21 +60,6 @@ Com npm:
 npm install --save-dev @cedraz/nest-essentials@latest
 ```
 
-Com yarn:
-```bash
-yarn add --dev @cedraz/nest-essentials@latest
-```
-
-Com pnpm:
-```bash
-pnpm add --save-dev @cedraz/nest-essentials@latest
-```
-
-Com bun:
-```bash
-bun add --dev @cedraz/nest-essentials@latest
-```
-
 ## Uso
 
 Após instalar o pacote, é necessário configurar seu projeto para utilizar os schematics do Nest Essentials. Para isso, edite o arquivo `nest-cli.json` ou `nest.json` e altere a propriedade `"collection"`:
